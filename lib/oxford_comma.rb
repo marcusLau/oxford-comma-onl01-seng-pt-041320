@@ -4,8 +4,9 @@ require 'pry'
 def oxford_comma(array)
   case array.size
   
+  binding.pry
+  
   when array.size == 1 
-    binding.pry
     return array.join
   when array.size == 2
     return "#{array[0]} and #{array[1]}"
