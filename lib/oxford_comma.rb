@@ -6,5 +6,5 @@ def oxford_comma(array)
   when array.size == 2
     return "#{array[0]} and #{array[1]}"
   when array.size >= 3
-    
+    oxford_comma = ""
 end
