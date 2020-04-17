@@ -9,5 +9,10 @@ def oxford_comma(array)
     oxford_comma = ""
     for i in 0..array.size-1
       if i == array.size-1
-        oxford_comma.concat("and #{array[i]")
+        oxford_comma.concat("and #{array[i]}")
+      else 
+        oxford_comma.concat("#{array[i]}, ")
+      end
+    end
+    return oxford_comma
 end
