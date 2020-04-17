@@ -2,9 +2,11 @@ require 'pry'
 
 
 def oxford_comma(array)
+  binding.pry
+  
   case array.size
   
-  binding.pry
+  
   
   when array.size == 1 
     return array.join
