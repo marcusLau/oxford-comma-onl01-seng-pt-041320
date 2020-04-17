@@ -21,5 +21,4 @@ def oxford_comma(array)
     end
     return oxford_comma
   end
-  return oxford_comma
 end
